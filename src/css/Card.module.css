@@ -1,0 +1,138 @@
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 400px;
+  gap: 30px;
+  width: 1400px;
+  margin: auto;
+  margin-top: 150px;
+  justify-content: center;
+}
+.conteiner .images {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1;
+  height: auto;
+  margin-top: 90px;
+}
+.conteiner .images .imgPrincipal {
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+.conteiner .images .conteinerIcons {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+.conteiner .images .conteinerIcons .icon {
+  border-radius: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+.conteiner .images .conteinerIcons .iconSelect {
+  margin: 0;
+  width: 100px;
+  opacity: 0.5;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 3px solid orangered;
+}
+.conteiner .text {
+  margin-top: -50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.conteiner .text h4 {
+  margin-bottom: 0px;
+  color: orange;
+  margin: none;
+  margin-top: 60px;
+}
+.conteiner .text h2 {
+  margin-top: 10px;
+  font-size: 40px;
+  width: 499px;
+}
+.conteiner .text p {
+  width: 450px;
+}
+.conteiner .text .displayFlex {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+.conteiner .text .displayFlex .price {
+  font-size: 25px;
+  font-weight: 700;
+}
+.conteiner .text .displayFlex .priceDescuento {
+  color: orange;
+  background-color: #ffd27d;
+  border-radius: 5px;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.conteiner .text .tachado {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 15px;
+}
+.conteiner .text .conteinerButtons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.conteiner .text .conteinerButtons .count {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  gap: 10px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+.conteiner .text .conteinerButtons .count button,
+.conteiner .text .conteinerButtons .count input {
+  border: none;
+}
+.conteiner .text .conteinerButtons .count input {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.conteiner .text .conteinerButtons .count button {
+  align-items: center;
+  height: 30px;
+  color: orange;
+  font-size: 20px;
+}
+.conteiner .text .conteinerButtons .buttonAdd {
+  border: 1px solid;
+  display: flex;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 5px;
+  color: #ffffff;
+  gap: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}

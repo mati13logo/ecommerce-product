@@ -1,0 +1,162 @@
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 400px;
+    gap: 30px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: center;
+    .images {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+        height: auto;
+        margin-top: 90px;
+        .imgPrincipal {
+            border-radius: 20px;
+            width: 500px;
+            height: 500px;
+            margin-bottom: 20px;
+        }
+
+        .conteinerIcons {
+            display: flex;
+            width: 500px;
+            justify-content: space-between;
+
+            // gap: 10px;
+            .icon {
+                border-radius: 20px;
+                width: 100px;
+                cursor: pointer;
+
+            }
+
+            .iconSelect {
+                margin: 0;
+                width: 100px;
+                opacity: 0.5;
+                border-radius: 20px;
+                cursor: pointer;
+                border: 3px solid orangered;
+            }
+        }
+    }
+
+    .text {
+        // flex: 1;
+        margin-top: -50px;
+        margin-right: 50px;
+        h4 {
+
+            margin-bottom: 0px;
+            color: orange;
+            margin: none;
+            margin-top: 60px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            font-size: 40px;
+            width: 499px;
+        }
+        p{
+            width: 450px;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        .displayFlex {
+            align-items: center;
+            display: flex;
+            gap: 50px;
+
+            .price {
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .priceDescuento {
+                color: orange;
+                background-color: rgb(255, 210, 125);
+                border-radius: 5px;
+                padding: 2px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+
+        .tachado {
+            text-decoration: line-through;
+            color: gray;
+            font-size: 15px;
+        }
+
+        .conteinerButtons {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            .count {
+                button,
+                input {
+                    border: none
+                }
+                
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: flex;
+                height: 30px;
+                align-items: center;
+                gap: 10px;
+                background-color: rgb(243, 243, 243);
+                border-radius: 5px;
+
+                input {
+                    display: flex;
+                    width: 20px;
+                    height: 20px;
+                    background: none;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                button {
+
+                    align-items: center;
+                    height: 30px;
+                    color: orange;
+                    font-size: 20px;
+                }
+            }
+
+            .buttonAdd {
+                border: 1px solid;
+                display: flex;
+                padding: 10px;
+                background-color: orange;
+                border-radius: 5px;
+                color: rgb(255, 255, 255);
+                gap: 5px;
+                padding-left: 50px;
+                padding-right: 50px;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
