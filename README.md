@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-![Design preview for the E-commerce product page coding challenge](./images/ecommerce.png)
+[![ecommerce.png](https://i.postimg.cc/Kj58RNW2/ecommerce.png)](https://postimg.cc/kRBmHx91)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
